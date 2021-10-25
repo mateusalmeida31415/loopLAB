@@ -1,4 +1,9 @@
+body{
+    background: #333;
+    color: white;
+}
+
 #navegacao{
-    border-bottom: 4px solid blue;
+    border-bottom: 3px solid #008ed6;
     opacity: .8;
 }

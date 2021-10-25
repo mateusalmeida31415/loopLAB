@@ -4,9 +4,9 @@
     <navbar-component 
     title="LoopLAB"
     :itens="[
-        {'item': 'home', 'id': '#'}, 
-        {'item': 'explore', 'id': '#'}, 
-        {'item': 'create', 'id': '#'}, 
-        {'item': 'share', 'id': '#'}]">
+        {'item': 'home', 'id': '#home-head-section'}, 
+        {'item': 'explore', 'id': '#explore-head-section'}, 
+        {'item': 'create', 'id': '#create-head-section'}, 
+        {'item': 'share', 'id': '#share-head-section'}]">
     </navbar-component>
 @endsection

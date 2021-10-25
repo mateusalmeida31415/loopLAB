@@ -1,5 +1,5 @@
 <template> 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3" id="navegacao">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3 fixed-top" id="navegacao">
         <div class="container">
             <a class="navbar-brand" href="#">{{title}}</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">

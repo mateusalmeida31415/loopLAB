@@ -37815,7 +37815,7 @@ var render = function() {
   return _c(
     "nav",
     {
-      staticClass: "navbar navbar-expand-sm navbar-dark bg-dark mb-3",
+      staticClass: "navbar navbar-expand-sm navbar-dark bg-dark mb-3 fixed-top",
       attrs: { id: "navegacao" }
     },
     [
