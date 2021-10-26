@@ -1,9 +1,34 @@
 body{
     background: #333;
     color: white;
+    height: 100vh;
+    
 }
 
 #navegacao{
     border-bottom: 3px solid #008ed6;
     opacity: .8;
+}
+
+#home-section{
+    height: 100vh;
+    background: url('/img/home.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#home-section .dark-overlay{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#home-section .card-form{
+    opacity: 0.8;
+}
+
+#home-section .fa-check{
+    background-color: white;
+    color: #008ed6;
+    padding: 5px;
+    border-radius: 5px;
 }
