@@ -2,7 +2,7 @@
     <section :id="id" class="bg-light text-secondary py-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 mb-5" :class="ordem()">
                     <img :src="image" alt="" class="img-fluid rounded-circle">
                 </div>
                 <div class="col-md-6">
@@ -17,6 +17,16 @@
 
 <script>
     export default {
-        props: ['id', 'title', 'text', 'image']
+        props: ['id', 'title', 'text', 'image', 'order'],
+        methods:{
+            ordem(){
+                if(this.order == 'reverse'){
+                    return 'order-2'
+                }
+
+                return ''
+            }
+        }
     }
+
 </script>

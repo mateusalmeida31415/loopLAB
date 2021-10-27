@@ -71,7 +71,8 @@
         id="explore-section" 
         title="Explore & Connect"
         text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore reiciendis, voluptate at alias laborum odit aliquid tempore perspiciatis repudiandae hic?"
-        image="/img/explore-section1.jpg">
+        image="/img/explore-section1.jpg"
+        order="normal">
 
         <template v-slot:second>
             <div class="d-flex">

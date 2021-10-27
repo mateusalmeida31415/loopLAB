@@ -2118,7 +2118,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  props: ['id', 'title', 'text', 'image']
+  props: ['id', 'title', 'text', 'image', 'order'],
+  methods: {
+    ordem: function ordem() {
+      if (this.order == 'reverse') {
+        return 'order-2';
+      }
+
+      return '';
+    }
+  }
 });
 
 /***/ }),
@@ -38259,7 +38268,7 @@ var render = function() {
     [
       _c("div", { staticClass: "container" }, [
         _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-md-6" }, [
+          _c("div", { staticClass: "col-md-6 mb-5", class: _vm.ordem() }, [
             _c("img", {
               staticClass: "img-fluid rounded-circle",
               attrs: { src: _vm.image, alt: "" }
