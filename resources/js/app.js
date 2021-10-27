@@ -22,6 +22,12 @@ window.Vue = require('vue').default;
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('navbar-component', require('./components/Navbar.vue').default);
 Vue.component('home-section-component', require('./components/HomeSection.vue').default);
+Vue.component('form-home-section-component', require('./components/FormHomeSection.vue').default);
+
+Vue.component('explore-head-section-component', require('./components/ExploreHeadSection.vue').default);
+
+Vue.component('explore-body-section-component', require('./components/ExploreBodySection.vue').default);
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
