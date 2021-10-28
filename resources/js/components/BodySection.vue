@@ -1,14 +1,14 @@
 <template>
-    <section :id="id" class="bg-light text-secondary py-5">
+    <section :id="id" class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mb-5" :class="ordem()">
                     <img :src="image" alt="" class="img-fluid rounded-circle">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 mb-5">
                     <h3 class="display-5">{{title}}</h3>
                     <p class="lead">{{text}}</p>
-                    <slot name="second"></slot>
+                    <slot></slot>
                 </div>
             </div>
         </div>

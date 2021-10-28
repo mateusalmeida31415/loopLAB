@@ -33,9 +33,38 @@ body{
     border-radius: 5px;
 }
 
+#explore-head-section{
+    background-color: #333;
+    color: white;
+}
+
+#explore-section{
+    background-color: #fff;
+    color: #333;
+}
+
 #explore-section .fa-check{
     background-color: #333;
     color: white;
     padding: 5px;
     border-radius: 5px;
 }
+
+#create-head-section{
+    background-color: #008ed6;
+    color: white;
+}
+
+#create-section{
+    background-color: #333;
+    color: white;
+}
+
+#create-section .fa-check{
+    background-color: white;
+    color: #008ed6;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+

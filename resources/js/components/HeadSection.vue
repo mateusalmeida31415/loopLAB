@@ -1,10 +1,10 @@
 <template>
     <!-- title: titulo do campo -->
     <!-- id: ID de referencia -->
-    <!-- text: textp dp campo -->
+    <!-- text: texto do campo -->
     <!-- btnText: texto do botão -->
     <section :id="id">
-        <div class="container container-fluid text-center py-5">
+        <div class="container text-center py-5 ">
             <h2 class="display-4">{{title}}</h2>
             <p class="lead">{{text}}</p>
             <button class="btn btn-outline-light btn-lg">{{btnText}}</button>
