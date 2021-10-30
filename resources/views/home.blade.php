@@ -8,7 +8,8 @@
         {'item': 'home', 'id': '#home-section'}, 
         {'item': 'explore', 'id': '#explore-head-section'}, 
         {'item': 'create', 'id': '#create-head-section'}, 
-        {'item': 'share', 'id': '#share-head-section'}]">
+        {'item': 'share', 'id': '#share-head-section'}]"
+    id="navegacao">
     </navbar-component>
     
     {{-- Home section --}}
@@ -132,4 +133,55 @@
         </div>
 
     </body-section-component>
+
+    {{-- Share head section --}}
+    <head-section-component 
+        title="Share"
+        id="share-head-section"
+        text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure itaque quibusdam rem accusantium deserunt reprehenderit sunt minus."
+        btn-text="Find Out More">
+    </head-section-component>
+
+    {{-- Share body section --}}
+    <body-section-component
+    id="explore-section" 
+    title="Share & Connect"
+    text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore reiciendis, voluptate at alias laborum odit aliquid tempore perspiciatis repudiandae hic?"
+    image="/img/share-section1.jpg"
+    order="normal">
+
+        <div class="d-flex">
+            <div class="align-self-start p-4">
+                <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="align-self-end p-4 lead">
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime accusantium veritatis 
+            </div>
+        </div>
+
+        <div class="d-flex">
+            <div class="align-self-start p-4">
+                <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="align-self-end p-4 lead">
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime accusantium veritatis 
+            </div>
+        </div>
+
+    </body-section-component>
+
+    {{-- Rodape --}}
+    <footer-component
+    title="LoopLAB"
+    text="Copyright &copy; 2021">
+    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalContact">Contact Us</button>
+    
+    </footer-component>
+
+    <modal-component
+    id="modalContact"
+    title="Contant Us">
+
+    </modal-component>
+    
 @endsection

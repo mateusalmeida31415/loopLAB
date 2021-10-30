@@ -28,6 +28,10 @@ Vue.component('head-section-component', require('./components/HeadSection.vue').
 
 Vue.component('body-section-component', require('./components/BodySection.vue').default);
 
+Vue.component('footer-component', require('./components/Footer.vue').default);
+
+Vue.component('modal-component', require('./components/Modal.vue').default);
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

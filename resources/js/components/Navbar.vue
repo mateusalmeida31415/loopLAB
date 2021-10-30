@@ -1,5 +1,5 @@
 <template> 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3 fixed-top" id="navegacao">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3 fixed-top" :id="id">
         <div class="container">
             <a class="navbar-brand" href="#">{{title}}</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
@@ -20,6 +20,6 @@
     export default {
         //Title: Nome da marca
         //itens(obj) [item](Nome do item) e [id](ID de referencia da section)
-        props: ['title', 'itens']
+        props: ['title', 'itens', 'id']
     }
 </script>
